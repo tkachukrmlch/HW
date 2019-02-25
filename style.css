@@ -185,12 +185,24 @@ body{
     padding-bottom: 65px;
     color: #e97151;
 }
-.header_now a{
+.header_now_space{
+    overflow: hidden;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_now_space a{
     font-family: 'Proxima Nova Light';
     font-weight: normal;
     font-style: normal;
     font-size: 18px;
     border-radius: 100px ;
+}
+.header_now_space a:first-child{
+    float: left;
+}
+.header_now_space a:last-child{
+    float: right;
 }
 .header_now a:nth-child(odd){
     padding: 18px 54px 20px 53px;
@@ -224,22 +236,26 @@ body{
     padding: 15px 0px 16px 0px;
 }
 .scroll{
+    padding-top: 385px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom:calc(-542px + 109px);
 }
 .scroll img:hover{
+    margin-top: -15px;
     height: 75px;
     width: 80px;
-    margin-bottom:calc(-542px + 109px);
+
 }
 .icons_top{
     padding-top: 115px;
 }
 .icons{
-
+    overflow: hidden;
     height: 600px;
     background: #f6f6f6;
 }
-.icons_top_div p{
+ .icons_top_div p{
     width: 242px;
     color: #5e6372;
     font-family: "Proxima Nova Regular";
@@ -263,7 +279,7 @@ body{
     padding-top: 16px;
 }
 .icons_top_div a :hover{
-    overflow: hidden;
+
     height: 105px;
     width: 120px;
 }
